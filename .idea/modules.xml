@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_main.iml" group="spring-boot-sample-web-ui" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_test.iml" group="spring-boot-sample-web-ui" />
+    </modules>
+  </component>
+</project>
