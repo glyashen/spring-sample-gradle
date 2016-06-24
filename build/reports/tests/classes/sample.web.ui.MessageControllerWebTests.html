@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.065s</div>
+<div class="counter">0.071s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,17 +79,17 @@
 </thead>
 <tr>
 <td class="success">testCreate</td>
-<td>0.005s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testCreateValidation</td>
-<td>0.032s</td>
+<td>0.034s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testHome</td>
-<td>0.028s</td>
+<td>0.031s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -97,34 +97,34 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2016-05-25 13:12:01.422  INFO 13396 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.json.JsonTesterInitializationTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2016-05-25 13:12:01.423  INFO 13396 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-2016-05-25 13:12:01.423  INFO 13396 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
-2016-05-25 13:12:01.423  INFO 13396 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c4f51c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e2b707a, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@47a62c15, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@17df3a1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@279a3357, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@52472f7e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@247777a7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4af96873, org.springframework.boot.test.autoconfigure.json.JsonTesterInitializationTestExecutionListener@3c8feaf0]
-2016-05-25 13:12:01.427  INFO 13396 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@57580ec0: startup date [Wed May 25 13:12:01 EEST 2016]; root of context hierarchy
-2016-05-25 13:12:01.704  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@57580ec0: startup date [Wed May 25 13:12:01 EEST 2016]; root of context hierarchy
-2016-05-25 13:12:01.712  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/{id}],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.view(sample.web.ui.Message)
-2016-05-25 13:12:01.713  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/modify/{id}],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.modifyForm(sample.web.ui.Message)
-2016-05-25 13:12:01.713  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET],params=[form]}&quot; onto public java.lang.String sample.web.ui.mvc.MessageController.createForm(sample.web.ui.Message)
-2016-05-25 13:12:01.713  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/foo]}&quot; onto public java.lang.String sample.web.ui.mvc.MessageController.foo()
-2016-05-25 13:12:01.713  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/delete/{id}],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.delete(java.lang.Long)
-2016-05-25 13:12:01.713  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[POST]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.create(sample.web.ui.Message,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
-2016-05-25 13:12:01.713  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.list()
-2016-05-25 13:12:01.714  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2016-05-25 13:12:01.714  INFO 13396 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2016-05-25 13:12:01.726  INFO 13396 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2016-05-25 13:12:01.727  INFO 13396 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2016-05-25 13:12:01.739  INFO 13396 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2016-05-25 13:12:01.827  INFO 13396 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2016-05-25 13:12:01.837  INFO 13396 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
-2016-05-25 13:12:01.837  INFO 13396 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
-2016-05-25 13:12:01.841  INFO 13396 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
-2016-05-25 13:12:01.865  INFO 13396 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
-2016-05-25 13:12:01.865  INFO 13396 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
-2016-05-25 13:12:01.866  INFO 13396 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
-2016-05-25 13:12:01.897  INFO 13396 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
-2016-05-25 13:12:01.897  INFO 13396 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
-2016-05-25 13:12:01.898  INFO 13396 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+<pre>2016-06-24 09:36:45.233  INFO 8566 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.json.JsonTesterInitializationTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-06-24 09:36:45.233  INFO 8566 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2016-06-24 09:36:45.234  INFO 8566 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+2016-06-24 09:36:45.234  INFO 8566 --- [    Test worker] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12d9a335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e0ee55d, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@1ddcb0ad, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@29e2f459, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76fd3a5b, org.springframework.boot.test.autoconfigure.json.JsonTesterInitializationTestExecutionListener@1f300dd4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@67918f47, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59efefd0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@46df3954, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@591ed2f6]
+2016-06-24 09:36:45.238  INFO 8566 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@329e8525: startup date [Fri Jun 24 09:36:45 EEST 2016]; root of context hierarchy
+2016-06-24 09:36:45.519  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@329e8525: startup date [Fri Jun 24 09:36:45 EEST 2016]; root of context hierarchy
+2016-06-24 09:36:45.528  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/{id}],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.view(sample.web.ui.Message)
+2016-06-24 09:36:45.528  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET],params=[form]}&quot; onto public java.lang.String sample.web.ui.mvc.MessageController.createForm(sample.web.ui.Message)
+2016-06-24 09:36:45.528  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/foo]}&quot; onto public java.lang.String sample.web.ui.mvc.MessageController.foo()
+2016-06-24 09:36:45.528  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/modify/{id}],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.modifyForm(sample.web.ui.Message)
+2016-06-24 09:36:45.528  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/delete/{id}],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.delete(java.lang.Long)
+2016-06-24 09:36:45.528  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[POST]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.create(sample.web.ui.Message,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2016-06-24 09:36:45.528  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView sample.web.ui.mvc.MessageController.list()
+2016-06-24 09:36:45.530  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-06-24 09:36:45.530  INFO 8566 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-06-24 09:36:45.542  INFO 8566 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-06-24 09:36:45.542  INFO 8566 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-06-24 09:36:45.556  INFO 8566 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-06-24 09:36:45.661  INFO 8566 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-06-24 09:36:45.672  INFO 8566 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-06-24 09:36:45.672  INFO 8566 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-06-24 09:36:45.676  INFO 8566 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+2016-06-24 09:36:45.701  INFO 8566 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-06-24 09:36:45.702  INFO 8566 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-06-24 09:36:45.703  INFO 8566 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+2016-06-24 09:36:45.736  INFO 8566 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-06-24 09:36:45.736  INFO 8566 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-06-24 09:36:45.737  INFO 8566 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
 </pre>
 </span>
 </div>
@@ -136,7 +136,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 2.13</a> at May 25, 2016 1:12:01 PM</p>
+<a href="http://www.gradle.org">Gradle 2.13</a> at Jun 24, 2016 9:36:45 AM</p>
 </div>
 </div>
 </body>
