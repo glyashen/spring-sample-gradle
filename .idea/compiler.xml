@@ -29,6 +29,8 @@
       <module name="spring-boot-sample-web-ui" target="1.5" />
       <module name="spring-boot-sample-web-ui_main" target="1.8" />
       <module name="spring-boot-sample-web-ui_test" target="1.8" />
+      <module name="spring-sample-gradle_main" target="1.8" />
+      <module name="spring-sample-gradle_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

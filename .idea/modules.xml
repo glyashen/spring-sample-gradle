@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_main.iml" group="spring-boot-sample-web-ui" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-sample-web-ui_test.iml" group="spring-boot-sample-web-ui" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-sample-gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-sample-gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-sample-gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-sample-gradle_main.iml" group="spring-sample-gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-sample-gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-sample-gradle_test.iml" group="spring-sample-gradle" />
     </modules>
   </component>
 </project>
