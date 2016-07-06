@@ -1,7 +1,7 @@
 # spring-sample-gradle
 sample spring-boot application  with ui for study and test purposes.
 
-#reauirments
+#reauirments:
 gradle 2.13
 jdk 8u91
 
